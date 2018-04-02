@@ -27,6 +27,7 @@ class State(Enum):
 
 
 def blink(led, state):
+  # led.blink(on_seconds, off_seconds)
   if state == State.opening or state == State.closing:
     led.blink(0.5,0.1)
   if state == State.open or state == State.closed:
