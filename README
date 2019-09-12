@@ -1,3 +1,4 @@
 This project is an attempt to use a raspberry pi to control a motor for opening and closing the door of my henhouse.
 
+The electrical wiring is based on the schema found on this website:
 http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html
